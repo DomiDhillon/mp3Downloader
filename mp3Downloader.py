@@ -35,7 +35,10 @@ def mp3Downloader(url, filename=None, directory=None):
         
         #dwn audio
         stream.download(filename=filename)
-        print("The video is downloaded in MP3")
+        if directory:
+            print(f"The MP3 is downloaded in {os.path.split(filename)[0]}")
+        else:
+            print(f"The MP3 is downloaded in {os.getcwd()}")
     
     #excpet the url is wrong
     except KeyError:
