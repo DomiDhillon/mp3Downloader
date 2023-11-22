@@ -6,7 +6,6 @@
 ```
 conda env create -f youtubenv.yml
 ```
-
 ## 2. Activate the new env
 ```
 conda activate youtubenv
