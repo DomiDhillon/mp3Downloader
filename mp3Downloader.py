@@ -40,7 +40,7 @@ def mp3Downloader(url, filename=None, directory=None):
         else:
             print(f"The MP3 is downloaded in {os.getcwd()}")
     
-    #excpet the url is wrong
+    #except the url is wrong
     except KeyError:
         print("Unable to fetch video information. Please check the video URL or your network connection.")
 
