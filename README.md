@@ -11,7 +11,7 @@ conda env create -f youtubenv.yml
 conda activate youtubenv
 ```
 
-## 3. Download mp3 (replace _url_ by a link, )
+## 3. Download mp3 (replace _url_ by a link)
 ```
 python mp3Downloader.py url --filename new_optional_name --directory optional/output/directory/
 ```
